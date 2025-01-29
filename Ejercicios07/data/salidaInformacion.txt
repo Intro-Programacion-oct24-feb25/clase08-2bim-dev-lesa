@@ -9,7 +9,8 @@ Con notas:
 
 Promedio - 66,250000
 Número de notas arriba del promedio: 3
-
+Nota mayor: 95
+Nota menor: 10
 
 Nombres: JONATHAN
 Apellidos: GEORGE
@@ -22,7 +23,8 @@ Con notas:
 
 Promedio - 61,250000
 Número de notas arriba del promedio: 2
-
+Nota mayor: 80
+Nota menor: 40
 
 Nombres: KRISTEN
 Apellidos: LANG
@@ -35,7 +37,8 @@ Con notas:
 
 Promedio - 41,250000
 Número de notas arriba del promedio: 1
-
+Nota mayor: 80
+Nota menor: 10
 
 Nombres: ROBIN
 Apellidos: COCHRAN
@@ -48,7 +51,8 @@ Con notas:
 
 Promedio - 46,250000
 Número de notas arriba del promedio: 2
-
+Nota mayor: 70
+Nota menor: 20
 
 Nombres: MICHELLE
 Apellidos: YOUNG
@@ -61,7 +65,8 @@ Con notas:
 
 Promedio - 63,750000
 Número de notas arriba del promedio: 3
-
+Nota mayor: 75
+Nota menor: 50
 
 Nombres: EMILY
 Apellidos: FLETCHER
@@ -74,7 +79,8 @@ Con notas:
 
 Promedio - 58,750000
 Número de notas arriba del promedio: 2
-
+Nota mayor: 85
+Nota menor: 30
 
 Nombres: NOAH
 Apellidos: ADKINS
@@ -87,7 +93,8 @@ Con notas:
 
 Promedio - 51,250000
 Número de notas arriba del promedio: 1
-
+Nota mayor: 80
+Nota menor: 40
 
 Nombres: DANIEL
 Apellidos: HARRIS
@@ -100,6 +107,7 @@ Con notas:
 
 Promedio - 66,250000
 Número de notas arriba del promedio: 2
-
+Nota mayor: 95
+Nota menor: 30
 
 

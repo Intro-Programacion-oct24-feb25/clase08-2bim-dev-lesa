@@ -23,11 +23,15 @@ public class Principal1 {
         double promedioEstudiante;
         int numeroNotasArribaPromedio;
         int [] filaNotas;
+        int notaMayor;
+        int notaMenor;
         String mensajeFinal = "";
         for (int i = 0; i < nombres.length; i++) {
             nombre = nombres[i];
             apellido = apellidos[i];
             filaNotas = notas[i];
+            notaMayor = obnotaMayor(filaNotas);
+            notaMenor = obnotaMenor(filaNotas);
             promedioEstudiante = funcion01(filaNotas);
             numeroNotasArribaPromedio = funcion02(filaNotas, 
                     promedio_paralelo);
@@ -35,7 +39,7 @@ public class Principal1 {
             String correo = obtenerCorreo(nombre,apellido);
             mensajeFinal = String.format("%s%s\n", mensajeFinal,    
                     presentarReporte(nombre.toUpperCase(), apellido.toUpperCase(), 
-                    tipoNotas, promedioEstudiante, numeroNotasArribaPromedio, correo));
+                    tipoNotas, promedioEstudiante, numeroNotasArribaPromedio, correo, notaMayor, notaMenor));
             /*
                 Acumula todo dento de una cadena para luego enviarlo todo sin 
                 que reescriba al convertirlo en un txt
@@ -52,20 +56,40 @@ public class Principal1 {
         return correo;
     }
     public static String presentarReporte(String nom, String ap, String notas, 
-            double prom, int numeroNotas, String correo){
+            double prom, int numeroNotas, String correo, int nMa, int nMe){
         String reporte = String.format("Nombres: %s\n"
                 + "Apellidos: %s\n"
                 + "Correo: %s\n"
                 + "Con notas: \n"
                 + "%s\n"
                 + "Promedio - %2f\n"
-                + "Número de notas arriba del promedio: %d\n\n",
-                nom, ap,correo, notas, prom, numeroNotas, correo);
+                + "Número de notas arriba del promedio: %d\n"
+                + "Nota mayor: %d\n"
+                + "Nota menor: %d\n",
+                nom, ap,correo, notas, prom, numeroNotas, nMa, nMe);
         
         return reporte;
     }
 
-    
+    public static int obnotaMayor(int [] n){
+        int mayor = n[0];
+        for (int i=0;i <n.length;i++){
+            if (n[i]>mayor){
+                mayor = n[i];
+            }
+        }
+        return mayor;
+    }
+
+    public static int obnotaMenor(int [] n){
+        int menor = n[0];
+        for (int i=0;i <n.length;i++){
+            if (n[i]<menor){
+                menor = n[i];
+            }
+        }
+        return menor;
+    }
     public static double obtenerPromedioParalelo(int [][] n){
         int suma = 0;
         double promedio;
