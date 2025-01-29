@@ -1,5 +1,6 @@
-Nombres: Jason
-Apellidos: Lynch
+Nombres: JASON
+Apellidos: LYNCH
+Correo: j.lynch@utpl.edu.ec
 Con notas: 
 10-M
 80-S
@@ -10,8 +11,9 @@ Promedio - 66,250000
 Número de notas arriba del promedio: 3
 
 
-Nombres: Jonathan
-Apellidos: George
+Nombres: JONATHAN
+Apellidos: GEORGE
+Correo: j.george@utpl.edu.ec
 Con notas: 
 40-MB
 80-S
@@ -22,8 +24,9 @@ Promedio - 61,250000
 Número de notas arriba del promedio: 2
 
 
-Nombres: Kristen
-Apellidos: Lang
+Nombres: KRISTEN
+Apellidos: LANG
+Correo: k.lang@utpl.edu.ec
 Con notas: 
 80-S
 10-M
@@ -34,8 +37,9 @@ Promedio - 41,250000
 Número de notas arriba del promedio: 1
 
 
-Nombres: Robin
-Apellidos: Cochran
+Nombres: ROBIN
+Apellidos: COCHRAN
+Correo: r.cochran@utpl.edu.ec
 Con notas: 
 70-S
 30-MB
@@ -46,8 +50,9 @@ Promedio - 46,250000
 Número de notas arriba del promedio: 2
 
 
-Nombres: Michelle
-Apellidos: Young
+Nombres: MICHELLE
+Apellidos: YOUNG
+Correo: m.young@utpl.edu.ec
 Con notas: 
 60-S
 50-MB
@@ -58,8 +63,9 @@ Promedio - 63,750000
 Número de notas arriba del promedio: 3
 
 
-Nombres: Emily
-Apellidos: Fletcher
+Nombres: EMILY
+Apellidos: FLETCHER
+Correo: e.fletcher@utpl.edu.ec
 Con notas: 
 50-MB
 70-S
@@ -70,8 +76,9 @@ Promedio - 58,750000
 Número de notas arriba del promedio: 2
 
 
-Nombres: Noah
-Apellidos: Adkins
+Nombres: NOAH
+Apellidos: ADKINS
+Correo: n.adkins@utpl.edu.ec
 Con notas: 
 40-MB
 80-S
@@ -82,8 +89,9 @@ Promedio - 51,250000
 Número de notas arriba del promedio: 1
 
 
-Nombres: Daniel
-Apellidos: Harris
+Nombres: DANIEL
+Apellidos: HARRIS
+Correo: d.harris@utpl.edu.ec
 Con notas: 
 30-MB
 90-S

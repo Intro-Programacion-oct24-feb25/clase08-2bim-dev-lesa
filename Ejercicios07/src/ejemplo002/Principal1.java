@@ -32,23 +32,35 @@ public class Principal1 {
             numeroNotasArribaPromedio = funcion02(filaNotas, 
                     promedio_paralelo);
             tipoNotas = funcion03(filaNotas);
-            mensajeFinal = String.format("%s%s\n", mensajeFinal, 
-                    presentarReporte(nombre, apellido, tipoNotas, 
-                    promedioEstudiante, numeroNotasArribaPromedio));
+            String correo = obtenerCorreo(nombre,apellido);
+            mensajeFinal = String.format("%s%s\n", mensajeFinal,    
+                    presentarReporte(nombre.toUpperCase(), apellido.toUpperCase(), 
+                    tipoNotas, promedioEstudiante, numeroNotasArribaPromedio, correo));
+            /*
+                Acumula todo dento de una cadena para luego enviarlo todo sin 
+                que reescriba al convertirlo en un txt
+            */
         }
         CrearArchivoTexto.agregarRegistros(mensajeFinal);
 
     }
-    
+    public static String obtenerCorreo(String nombre,String apellido){
+ 
+            nombre= nombre.toLowerCase();
+            apellido=apellido.toLowerCase();
+            String correo = nombre.substring(0,1)+"."+apellido+"@utpl.edu.ec";
+        return correo;
+    }
     public static String presentarReporte(String nom, String ap, String notas, 
-            double prom, int numeroNotas){
+            double prom, int numeroNotas, String correo){
         String reporte = String.format("Nombres: %s\n"
                 + "Apellidos: %s\n"
+                + "Correo: %s\n"
                 + "Con notas: \n"
                 + "%s\n"
                 + "Promedio - %2f\n"
                 + "Número de notas arriba del promedio: %d\n\n",
-                nom, ap, notas, prom, numeroNotas);
+                nom, ap,correo, notas, prom, numeroNotas, correo);
         
         return reporte;
     }
